@@ -71,26 +71,89 @@
                                 </div>
                 </div>
                 <div class="col-md-4" id="notice-board">
-                  <div class="list-group">
-                    <p class="list-group-item list-group-item-action active text-center">Notice Board </p>
-                    <a href="{{url('/pages/notice')}}" target="_blank" class="list-group-item list-group-item-action text-center link-animation">Udpate Notice Here</a>
-                    <a href="{{url('/pages/notice')}}" target="_blank" class="list-group-item list-group-item-action text-center link-animation">Exam Notice Here</a>
-                    <a href="{{url('/pages/notice')}}" target="_blank" class="list-group-item list-group-item-action text-center link-animation">Genaral All Notice Here</a>
-                    <a href="{{url('/pages/notice')}}" target="_blank" class="list-group-item list-group-item-action  text-center link-animation">Vocational All Notice Here</a>
-                    <a href="{{url('/pages/notice')}}" target="_blank" class="list-group-item list-group-item-action  text-center link-animation">Notice Pages </a>
-                </div>
+                  <div class="col-12 quik-manu" ><h3 class="text-center">Quik Manu</h3></div>
+                  <div class="row">
+                    <div class="col-4 icon-bar">
+                      <i class="fas fa-clock fa-spin"></i>
+                        <p>Class Rutine</p>
+                    </div>
+                    <div class="col-4 icon-bar">
+                      <i class="fas fa-clipboard-list fa-flip-horizontal"></i>
+                      <p>Notice Board</p>
+                    </div>
+                    <div class="col-4 icon-bar">
+                      <i class="fas fa-graduation-cap"></i>
+                      <p>Student Login</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4 icon-bar">
+                      <i class="fas fa-tasks"></i>
+                        <p>Managment</p>
+                    </div>
+                    <div class="col-4 icon-bar">
+                      <i class="fas fa-school"></i>
+                      <p>About School</p>
+                    </div>
+                    <div class="col-4 icon-bar">
+                      <i class="fas fa-id-card"></i>
+                      <p>ID card Form</p>
+                    </div>
+                  </div>
+                  <div class="row">                   
+                    <div class="col-4 icon-bar">
+                      <i class="fas fa-upload"></i>
+                        <p>Project Submit</p>
+                    </div>
+                    <div class="col-4 icon-bar">
+                      <i class="fas fa-user-alt"></i>
+                      <p>New Profile</p>
+                    </div>
+                    <div class="col-4 icon-bar">
+                      <i class="fas fa-photo-video"></i>
+                      <p>Online Class</p>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
 
-          {{--Create a selider--}}
-          <div class="container" style="margin-top: 25px">
-            <div class="row">
-            <div class="col-md-6">
-                  {{--Post Section Post About School and ReadMore Button Call Full post--}}
+          {{--Blogs Post here --}}
+              <div class="container" style="margin-top: 25px">
+                <div class="row">
+                <div class="col-md-6">
+                      {{--Post Section Post About School and ReadMore Button Call Full post--}}
+                      <div class="blog-card">
+                        <div class="meta">
+                          <div class="photo" style="background-image: url({{url('fontend/images/school-photo.jpeg')}})"></div>
+                          <ul class="details">
+                            <li class="author"><a href="{{url('/login')}}">Admin</a></li>
+                            <li class="date">Aug. 24, 2015</li>
+                            <li class="tags">
+                              <ul>
+                                <li><a href="{{url('/pages/about')}}">About us</a></li>
+                                <li><a href="{{url('/pages/blogs')}}">Blogs</a></li>
+                                <li><a href="{{url('/pages/admission')}}">Admission</a></li>
+                                <li><a href="{{url('/')}}">Go Back</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="description">
+                          <h1>Story Of  Our Inistitude :</h1>
+                          <h2>Shibdeb BL High School</h2>
+                          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                          <p class="read-more">
+                            <a href="#">Read More</a>
+                          </p>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-md-6">
                   <div class="blog-card">
                     <div class="meta">
-                      <div class="photo" style="background-image: url({{url('fontend/images/school-photo.jpeg')}})"></div>
+                      <div class="photo" style="background-image: url({{url('fontend/images/head-master.webp')}})"></div>
                       <ul class="details">
                         <li class="author"><a href="{{url('/login')}}">Admin</a></li>
                         <li class="date">Aug. 24, 2015</li>
@@ -115,35 +178,9 @@
                   </div>
 
             </div>
-            <div class="col-md-6">
-              <div class="blog-card">
-                <div class="meta">
-                  <div class="photo" style="background-image: url({{url('fontend/images/head-master.webp')}})"></div>
-                  <ul class="details">
-                    <li class="author"><a href="{{url('/login')}}">Admin</a></li>
-                    <li class="date">Aug. 24, 2015</li>
-                    <li class="tags">
-                      <ul>
-                        <li><a href="{{url('/pages/about')}}">About us</a></li>
-                        <li><a href="{{url('/pages/blogs')}}">Blogs</a></li>
-                        <li><a href="{{url('/pages/admission')}}">Admission</a></li>
-                        <li><a href="{{url('/')}}">Go Back</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-                <div class="description">
-                  <h1>Story Of  Our Inistitude :</h1>
-                  <h2>Shibdeb BL High School</h2>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-                  <p class="read-more">
-                    <a href="#">Read More</a>
-                  </p>
-                </div>
-              </div>
+            
 
-        </div>
-            </div>
-            </div>
-          </div>
+            {{--Icon Manu Bar Here--}}
+
+
 @endsection
