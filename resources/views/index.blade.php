@@ -179,8 +179,37 @@
 
             </div>
             
-
-            {{--Icon Manu Bar Here--}}
-
+            {{--Caalender real time calender--}}
+            <div class="container" style="margin-top: 25px">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="col-12 d-md-none">
+                    <h3 class="text-center">Canlender</h3>
+                  </div>
+                      <div class="wrapper">
+                        <header>
+                          <p class="current-date"></p>
+                          <div class="icons">
+                            <span id="prev" class="material-symbols-rounded"><i class="fas fa-chevron-left"></i></span>
+                            <span id="next" class="material-symbols-rounded"><i class="fas fa-chevron-right"></i></span>
+                          </div>
+                        </header>
+                        <div class="calendar">
+                          <ul class="weeks">
+                            <li>Sun</li>
+                            <li>Mon</li>
+                            <li>Tue</li>
+                            <li>Wed</li>
+                            <li>Thu</li>
+                            <li>Fri</li>
+                            <li>Sat</li>
+                          </ul>
+                          <ul class="days"></ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6"></div>
+              </div>
+            </div>
 
 @endsection
