@@ -1,10 +1,4 @@
-#login-main{
-  background: url(../images/background-image.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 500px;
-}
+
 .login-pages{
   background-color: rgb(255, 255, 255);
   margin: 20px 0 20px 0;

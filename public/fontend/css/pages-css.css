@@ -1,0 +1,30 @@
+
+#bg-image{
+    background: url(../images/background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+
+
+
+  /* Notice pages Css */
+
+.body-content{
+    padding-top: 10px;
+    background: rgb(49, 33, 33);
+    color: #fff;
+}
+#notice-table{
+    background: rgb(49, 33, 33);
+    color: #fff;
+}
+.id{
+    width: 100px;
+}
+.view{
+    width: 150px;
+}
+
+
