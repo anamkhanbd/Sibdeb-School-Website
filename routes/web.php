@@ -19,6 +19,8 @@ use App\Http\Controllers\GenaralResultController;
 use App\Http\Controllers\GenaralRutineController;
 use App\Http\Controllers\VocationalResultController;
 use App\Http\Controllers\VocationalRutineController;
+use App\Http\Controllers\ErorrController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -48,3 +50,4 @@ Route::get('/pages/vocationalrutine',[VocationalRutineController::class, 'index'
 Route::get('/login',[LoginController::class, 'index']);
 Route::get('/singup',[SingupController::class, 'index']);
 Route::get('/pages/genaralrutine',[GenaralRutineController::class, 'index']);
+Route::get('/pages/erorr',[ErorrController::class, 'index']);

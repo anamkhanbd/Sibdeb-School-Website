@@ -182,7 +182,7 @@
             {{--Caalender real time calender--}}
             <div class="container" style="margin-top: 25px">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6"  id="calender-cc">
                   <div class="col-12 d-md-none">
                     <h3 class="text-center">Canlender</h3>
                   </div>

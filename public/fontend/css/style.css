@@ -541,6 +541,7 @@ header .current-date{
   background: #0a6d38;
   padding: 25px 10px;
   border-radius: 5px;
+  margin-bottom: 25px;
 }
 #quiklinks h3{
   color: #fff;
@@ -578,9 +579,7 @@ header .current-date{
 
 
 /*FooterCss */
-footer{
-  margin-top: 25px;
-}
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -800,6 +799,46 @@ color: #878787;
       .selid-image{
         height: 300px;
       }
-      
-
+      .alppy-form input {
+        width:100%;
+        height: auto;
+        border: 1px solid #000;
+    }
+    .alppy-form select{
+      width:100%;
+        height: auto;
+        border: 1px solid #000;
+    }
+    .fill-up{
+      width:50%;
+        height: auto;
+        border: 1px solid #000;
+    }
+    .submit{
+      margin-left: 30%;
+    }
+    .login-btn{
+      display: none;
+    }
+    .header-text{
+      width: 100px;
+    }
+    .header-text h1{
+      font-size: larger;
+      margin-left: 10px;
+    }
+    .header-text h4{
+      display: block;
+      font-size: small;
+      margin-left: 10px;
+    }
+    .header-text h4 span{
+      margin-left: 5px;
+    }
+    #calender-cc{
+      display: none;
+    }
+    #quiklinks{
+      display: block;
+    }
 }
