@@ -208,8 +208,43 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-md-6"></div>
+
+                {{--ADDS some quik links here for help user quik access educational some kindfull website and online forum--}}
+                <div class="col-md-6" id="quiklinks">
+                  <div class="col-12"><h3 class="text-center">Quik Links</h3></div>
+                    <div class="col-12">
+                      <ul>
+                        <li>
+                          <i class="fas fa-link"></i>
+                          <a href="https://dinajpureducationboard.gov.bd/" target="_blank"> Dinajpur Education Board</a>
+                        </li>
+                        <li>
+                          <i class="fas fa-link" ></i>
+                          <a href="http://www.nctb.gov.bd/site/page/e6551aa3-2cd8-4e23-89cc-8a49cca3dc69/-"target="_blank"> E-Book NCTB</a>
+                        </li>
+                        <li>
+                          <i class="fas fa-link" ></i>
+                          <a href="http://www.educationboardresults.gov.bd/" target="_blank">All Results </a>
+                        </li>
+                        <li>
+                          <i class="fas fa-link" ></i>
+                          <a href="https://eboardresults.com/v2/home" target="_blank">Inistitude Results</a>
+                        </li>
+                        <li>
+                          <i class="fas fa-link" ></i>
+                          <a href="https://teachers.gov.bd/" target="_blank">Sikhok Batayon</a>
+                        </li>
+                        <li>
+                          <i class="fas fa-link"></i>
+                          <a href="https://bn.wikipedia.org/wiki/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE" target="_blank">Bangla Wikipedia</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
 
 @endsection
