@@ -98,7 +98,7 @@
           <div class="row">
               <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                   <div class="copyright-text">
-                      <p>Copyright &copy; 2023, All Right Reserved <a href="https://github.com/anamkhanbd" target="_blank">A H ANAM</a></p>
+                      <p>Copyright &copy; 2023, All Right Reserved <a href="https://github.com/anamkhanbd" target="_blank">AH Service's</a></p>
                   </div>
               </div>
               <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">

@@ -5,13 +5,13 @@
       @endpush
 
 @section('main-section')
-<div class="container-fulid" id="login-main">
+<div class="container-fulid" id="bg-image">
     <div class="container">
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4 login-pages" >
                     <div class="col-12 login-head bg-head">
-                        <h3 class="text-center">Sing-up Pages</h3>
+                        <h3 class="text-center ff-hind">Sing-up Pages</h3>
                     </div>
                         <br><br>
                         <form>
@@ -20,13 +20,13 @@
                               <div class="col-md-6 mb-4">
                                 <div class="form-outline">
                                   <input type="text" id="form3Example1" class="form-control" />
-                                  <label class="form-label" for="form3Example1">First name</label>
+                                  <label class="form-label ff-hind" for="form3Example1">First name</label>
                                 </div>
                               </div>
                               <div class="col-md-6 mb-4">
                                 <div class="form-outline">
                                   <input type="text" id="form3Example2" class="form-control" />
-                                  <label class="form-label" for="form3Example2">Last name</label>
+                                  <label class="form-label ff-hind" for="form3Example2">Last name</label>
                                 </div>
                               </div>
                             </div>
@@ -34,20 +34,27 @@
                             <!-- Email input -->
                             <div class="form-outline mb-4">
                               <input type="email" id="form3Example3" class="form-control" />
-                              <label class="form-label" for="form3Example3">Email address</label>
+                              <label class="form-label ff-hind" for="form3Example3">Email address</label>
                             </div>
               
                             <!-- Password input -->
                             <div class="form-outline mb-4">
                               <input type="password" id="form3Example4" class="form-control" />
-                              <label class="form-label" for="form3Example4">Password</label>
+                              <label class="form-label ff-hind" for="form3Example4">Password</label>
+                            </div>
+
+                            <!--Retype Password input -->
+                            <div class="form-outline mb-4">
+                              <input type="password" id="form3Example4" class="form-control" />
+                              <label class="form-label ff-hind" for="form3Example4">Confirm Password</label>
                             </div>
             
               
                             <!-- Submit button -->
-                            <button type="submit" class="btn btn-primary btn-block mb-4">
+                            <button type="submit" class="btn btn-primary btn-block mb-4 ff-hind">
                               Sign up
                             </button>
+                            <p class="text-center ff-hind">I have Account <span><a class="ff-hind" href="{{url('/login')}}">Login ?</a></span></p>
                           </form>
                           
             </div>
