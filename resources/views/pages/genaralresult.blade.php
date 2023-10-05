@@ -1,4 +1,7 @@
 @extends('layout.main')
+@push('tittle')
+  <title>Grnaral Result Pages</title>
+  @endpush
 @section('main-section')
     <div class="container-fluid" id="bg-image">
         <div class="container body-content">

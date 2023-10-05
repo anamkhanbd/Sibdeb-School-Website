@@ -19,7 +19,9 @@
                       <i class="fas fa-phone"></i>
                       <div class="cta-text">
                           <h4>Call us</h4>
-                          <span><a href="tel:+880628275084">Head sir</a></span>
+                          <span><a href="tel:+880628275084">+8801602058020</a></span> <br>
+                          <span><a href="tel:+880628275084">+8801602058021</a></span><br>
+                          <span><a href="tel:+880628275084">+8801602058022</a></span>
                       </div>
                   </div>
               </div>

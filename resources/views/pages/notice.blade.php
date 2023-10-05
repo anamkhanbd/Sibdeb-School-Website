@@ -1,4 +1,7 @@
 @extends('layout.main')
+@push('tittle')
+  <title>Notice Pages</title>
+  @endpush
 @section('main-section')
     <div class="container-fluid" id="bg-image">
             <div class="container" id="notice-table">

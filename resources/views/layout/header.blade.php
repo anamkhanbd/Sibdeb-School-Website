@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link rel="icon" type="image/x-icon" href="{{url('fontend/images/logo-school.webp')}}">
-    <title>{{url('/')}}</title>
+      @stack('tittle')
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

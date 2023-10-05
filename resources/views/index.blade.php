@@ -1,4 +1,10 @@
+
 @extends('layout.main')
+
+  @push('tittle')
+  <title>Home Pages</title>
+  @endpush
+
 @section('main-section')
           <div class="contailner-fluid" id="main-container">
                 <div class="container">

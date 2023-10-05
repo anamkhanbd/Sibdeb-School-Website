@@ -1,4 +1,9 @@
 @extends('layout.main')
+
+      @push('tittle')
+      <title>Singup Pages</title>
+      @endpush
+
 @section('main-section')
 <div class="container-fulid" id="login-main">
     <div class="container">
