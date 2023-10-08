@@ -19,13 +19,13 @@
                             <div class="row">
                               <div class="col-md-6 mb-4">
                                 <div class="form-outline">
-                                  <input type="text" id="form3Example1" class="form-control" />
+                                  <input type="text" name="fname" id="form3Example1" class="form-control" />
                                   <label class="form-label ff-hind" for="form3Example1">First name</label>
                                 </div>
                               </div>
                               <div class="col-md-6 mb-4">
                                 <div class="form-outline">
-                                  <input type="text" id="form3Example2" class="form-control" />
+                                  <input type="text" name="lname" id="form3Example2" class="form-control" />
                                   <label class="form-label ff-hind" for="form3Example2">Last name</label>
                                 </div>
                               </div>
@@ -33,19 +33,19 @@
               
                             <!-- Email input -->
                             <div class="form-outline mb-4">
-                              <input type="email" id="form3Example3" class="form-control" />
+                              <input type="email" name="email" id="form3Example3" class="form-control" />
                               <label class="form-label ff-hind" for="form3Example3">Email address</label>
                             </div>
               
                             <!-- Password input -->
                             <div class="form-outline mb-4">
-                              <input type="password" id="form3Example4" class="form-control" />
+                              <input type="password" name="password" id="form3Example4" class="form-control" />
                               <label class="form-label ff-hind" for="form3Example4">Password</label>
                             </div>
 
                             <!--Retype Password input -->
                             <div class="form-outline mb-4">
-                              <input type="password" id="form3Example4" class="form-control" />
+                              <input type="password" name="cpassword" id="form3Example4" class="form-control" />
                               <label class="form-label ff-hind" for="form3Example4">Confirm Password</label>
                             </div>
             

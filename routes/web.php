@@ -21,6 +21,11 @@ use App\Http\Controllers\VocationalResultController;
 use App\Http\Controllers\VocationalRutineController;
 use App\Http\Controllers\ErorrController;
 
+//Models path
+use App\Models\Singup;
+use App\Models\Admisson;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -51,3 +56,13 @@ Route::get('/login',[LoginController::class, 'index']);
 Route::get('/singup',[SingupController::class, 'index']);
 Route::get('/pages/genaralrutine',[GenaralRutineController::class, 'index']);
 Route::get('/pages/erorr',[ErorrController::class, 'index']);
+
+
+
+//Model use singup data table
+Route::get('/singup', function(){
+    return view ('/singup');
+});
+
+//Admission Pages  Route
+Route::post('/pages/admission',[AdmissionController::class, 'store']);
